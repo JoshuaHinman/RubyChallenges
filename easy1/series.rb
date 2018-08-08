@@ -15,17 +15,3 @@ class Series
     array
   end
 end
-# def series(str, n)
-#   array = []
-#   (0..(str.length-n)).each do |idx|
-#     digits = ''
-#     (idx..(idx+n-1)).each{|n| digits += str[n]}
-#     array << digits
-#   end
-#   array
-# end
-
-#p series("012345", 4)
-
-# s = Series.new("012345")
-# p s.slices(4)
